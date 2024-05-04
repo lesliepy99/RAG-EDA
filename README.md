@@ -10,4 +10,4 @@
   - [reranker_dataset](./training_dataset/reranker_dataset)
     - [openroad_pos_neg_backup_data.jsonl](./training_dataset/reranker_dataset/openroad_pos_neg_backup_data.jsonl)
   - [text-embedding-model_dataset](./training_dataset/text-embedding-model_dataset)
-    - [embedding_contrastive_corpu.csv](./training_dataset/embedding_contrastive_corpu.csv)
+    - [embedding_contrastive_corpu.csv](./training_dataset/text-embedding-model_dataset/embedding_contrastive_corpu.csv)
