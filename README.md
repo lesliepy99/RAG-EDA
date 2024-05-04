@@ -1,7 +1,7 @@
 # RAG-EDA
 ## Structures of the directory:
 - [benchmark](./benchmark)
-  - [OPR-QA.jsonl](./benchmark/OPR-QA.jsonl)
+  - [ORD-QA.jsonl](./benchmark/ORD-QA.jsonl)
   - [openroad_documentation.json](./benchmark/openroad_documentation.json)
 - [training_dataset](./training_dataset)
   - [generator_dataset](./training_dataset/generator_dataset)
