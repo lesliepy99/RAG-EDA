@@ -3,7 +3,7 @@
 - [benchmark](./benchmark)
   - [OPR-QA.jsonl](./benchmark/OPR-QA.jsonl)
   - [openroad_documentation.json](./benchmark/openroad_documentation.json)
-- [trainning_dataset](./trainning_dataset)
+- [training_dataset](./training_dataset)
   - [generator_dataset](./training_dataset/generator_dataset)
     - [eda_corpus_pretrain.jsonl](./training_dataset/generator_dataset/eda_corpus_pretrain.jsonl)
     - [QA_finetuning_v1v2amend1.jsonl](./training_dataset/generator_dataset/QA_finetuning_v1v2amend1.jsonl)
