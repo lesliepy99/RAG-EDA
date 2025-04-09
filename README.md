@@ -35,3 +35,16 @@
 - reference: the id(s) of the relevant document(s).
 - reference_content: the content of the relevant document(s).
 - answer.
+
+## Scoring Criterion for Query-Document Relevance
+
+Scoring criterion for the relevance degrees between one query $q$ and one document $d$. This scoring criterion is used for generating the corpus for the LLM reranker.
+
+| Score | Description                                                                 |
+|-------|------------------------------------------------------------------------------|
+| 100   | `d` is perfectly relevant to `q` and can be used to directly answer `q`.    |
+| 80    | `d` is relevant to `q` and can partially answer `q`.                        |
+| 60    | `d` is relevant to `q` but cannot be directly used to answer `q`.           |
+| 40    | It is possible that `d` is relevant to `q`, but more information is required to verify the relevance. |
+| 20    | `d` is basically not relevant to `q`.                                       |
+| 0     | `d` is totally irrelevant to `q`.                                            |
